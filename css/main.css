@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 500;
+  color: hsl(0, 0%, 100%);
+  font-size: 0.8125rem;
+  background-color: hsl(210, 46%, 95%);
+  height: 100vh;
+}
+
+.violet {
+  background-color: hsl(263, 55%, 52%);
+}
+
+.grayish-blue {
+  background-color: hsl(217, 19%, 35%);
+}
+
+.blackish-blue {
+  background-color: hsl(219, 29%, 14%);
+}
+
+.white {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(217, 19%, 35%);
+}

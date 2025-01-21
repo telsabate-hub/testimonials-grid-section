@@ -1,0 +1,25 @@
+@import './config';
+
+body {
+    @include barlow(.8125rem, 500);
+
+    background-color: $light-grayish-blue;
+    height: 100vh;
+}
+
+.violet {
+    background-color: $modern-violet;
+}
+
+.grayish-blue {
+    background-color: $very-dark-grayish-blue;
+}
+
+.blackish-blue {
+    background-color: $very-dark-blackish-blue;
+}
+
+.white {
+    background-color: $white;
+    color: $very-dark-grayish-blue;
+}
