@@ -1,9 +1,16 @@
 $modern-violet: hsl(263, 55%, 52%);
 $very-dark-grayish-blue: hsl(217, 19%, 35%);
+$very-dark-grayish-blue-50: hsl(217deg 19% 35% / 50%);
+$very-dark-grayish-blue-70: hsl(217deg 19% 35% / 70%);
+$very-dark-grayish-blue: hsl(217, 19%, 35%);
 $very-dark-blackish-blue: hsl(219, 29%, 14%);
 $white: hsl(0, 0%, 100%);
+$white-50: hsl(0deg 0% 100% / 50%);
+$white-70: hsl(0deg 0% 100% / 70%);
 $light-gray: hsl(0, 0%, 81%);
 $light-grayish-blue: hsl(210, 46%, 95%);
+$light-gray-50: hsl(0deg 0% 81% / 50%);
+$light-gray-70: hsl(0deg 0% 81% / 70%);
 
 *{
     box-sizing: border-box;
