@@ -11,8 +11,7 @@ main {
     @include centerContentVertically();
 
     height: 100vh;
-    // padding: 2.5rem 10rem;
-    width: 80%;
+    max-width: 65rem;
     margin: auto;
 }
 
@@ -21,12 +20,12 @@ article {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 1.5rem;
-    max-height: 36rem;
+    max-height: 29rem;
 }
 
 .testimonial {
     border-radius: .5rem;
-    padding: 1rem 2rem;
+    padding: 1.25rem 2rem;
 
     &-title {
         font-weight: 600;
@@ -36,7 +35,26 @@ article {
 
     &-review {
         padding-bottom: 1rem;
+        line-height: 1.5;
     }
+}
+
+.testimonial img {
+    border-radius: 50%;
+    border: 3px solid $light-gray-50;
+    vertical-align: middle;
+}
+
+.grayish-blue img {
+    border-color: $very-dark-grayish-blue;
+}
+
+.white img {
+    border-color: $white;
+}
+
+.blackish-blue img {
+    border-color: $modern-violet;
 }
 
 .violet {
@@ -113,5 +131,16 @@ article {
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 1em;
+    vertical-align: middle;
 }
 
+.author-name,
+.testimonial-review {
+    font-size: .75rem;
+}
+
+.author-title {
+    font-size: .625rem;
+    font-weight: 600;
+}
