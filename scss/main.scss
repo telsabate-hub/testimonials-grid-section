@@ -19,23 +19,22 @@ article {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 1.5rem;
-    max-height: 29rem;
+    gap: 1.5rem 2rem;
 }
 
 .testimonial {
     border-radius: .5rem;
-    padding: 1.25rem 2rem;
+    padding: 0 2rem;
 
     &-title {
         font-weight: 600;
         font-size: 1.125rem;
-        padding: 1rem 0;
+        padding: .9375rem 0;
     }
 
     &-review {
-        padding-bottom: 1rem;
-        line-height: 1.5;
+        line-height: 1.4;
+        margin-bottom: 30px;
     }
 }
 
@@ -92,6 +91,7 @@ article {
     background-color: $very-dark-blackish-blue;
     grid-row: 2 / 3;
     grid-column: 2 / 4;
+    max-height: fit-content;
 
     &-author-title {
         color: $white-50;
@@ -99,14 +99,15 @@ article {
 
     &-review {
         color: $white-70;
+        margin-top: 5px;
+        margin-bottom: 25px;
     }
 }
 
 .white {
     background-color: $white;
     color: $very-dark-grayish-blue;
-    grid-row: 1 /2;
-    grid-column: 1 / 3;
+    max-height: fit-content;
 
     &-author-title {
         color: $very-dark-grayish-blue-50;
@@ -114,17 +115,26 @@ article {
 
     &-review {
         color: $very-dark-grayish-blue-70;
+        margin-top: 5px;
+        margin-bottom: 25px;
     }
 }
 
 .kira {
     grid-row: 1 / 3;
     grid-column: 4 / 5;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .jeanette {
     grid-row: 2 / 3;
     grid-column: 1 / 2;
+}
+
+.author {
+    margin-top: 1.75em;
+    margin-bottom: 0;
 }
 
 .author p {
@@ -143,4 +153,10 @@ article {
 .author-title {
     font-size: .625rem;
     font-weight: 600;
+}
+
+.violet .quotation {
+    border-radius: initial;
+    border: none;
+    float: right;
 }
