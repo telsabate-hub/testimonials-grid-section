@@ -27,7 +27,6 @@ article {
     padding: 0 2rem;
 
     &-title {
-        font-weight: 600;
         font-size: 1.125rem;
         padding: .9375rem 0;
     }
@@ -60,6 +59,7 @@ article {
     background-color: $modern-violet;
     grid-column: 1 / 3;
     grid-row: 1 / 2;
+    position: relative;
 
     &-author {
         color: $light-gray;
@@ -68,10 +68,14 @@ article {
             color: $light-gray-50;
         }
     }
-
+    
     &-review {
         color: $light-gray-70;
     }
+}
+
+.violet .testimonial-title {
+    position: relative;
 }
 
 .grayish-blue {
@@ -118,6 +122,10 @@ article {
         margin-top: 5px;
         margin-bottom: 25px;
     }
+
+    &-title {
+        font-weight: 600;
+    }
 }
 
 .kira {
@@ -155,8 +163,17 @@ article {
     font-weight: 600;
 }
 
-.violet .quotation {
-    border-radius: initial;
-    border: none;
-    float: right;
+.quotation {
+    position: absolute;
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    top: 0px;
+    right: 80px;
+    height: 102px;
+    width: 104px;
+    background-size: 93px 96px;
 }
+
+
+
+@import './mobile';

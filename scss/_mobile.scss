@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px){
+    body {
+        height: auto;
+    }
+
+    main {
+        margin: 2rem 1rem;
+        justify-content: flex-start;
+    }
+
+    article {
+        display: block;
+        height: auto;
+    }
+
+}
