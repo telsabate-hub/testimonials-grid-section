@@ -176,11 +176,43 @@ article {
     height: auto;
   }
   main {
-    margin: 2rem 1rem;
+    margin: 2rem 1.5rem;
     justify-content: flex-start;
   }
   article {
     display: block;
     height: auto;
+    margin-top: 25px;
+    padding-bottom: 50px;
+  }
+  .testimonial {
+    display: inline-block;
+    margin: 15px 0;
+  }
+  .testimonial-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-right: 1px;
+  }
+  .testimonial-review {
+    font-size: 0.8125rem;
+    padding-right: 15px;
+  }
+  .quotation {
+    right: 24px;
+    background-size: 104px 100px;
+  }
+  .author-title {
+    font-size: 0.7rem;
+  }
+  .grayish-blue-review {
+    padding-right: 0px;
+  }
+  .blackish-blue-review {
+    padding-right: 1px;
+  }
+  .kira .testimonial-review {
+    padding-right: 6px;
   }
 }
