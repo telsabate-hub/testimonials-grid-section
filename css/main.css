@@ -36,6 +36,7 @@ article {
 .testimonial-title {
   font-size: 1.125rem;
   padding: 0.9375rem 0;
+  font-weight: 500;
 }
 .testimonial-review {
   line-height: 1.4;
