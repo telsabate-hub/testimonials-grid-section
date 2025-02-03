@@ -13,7 +13,7 @@ main {
     // height: 100vh;
     max-width: 69rem;
     margin: auto;
-    padding-top: 10.125rem;
+    padding: 10vh 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -67,6 +67,9 @@ main {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
     position: relative;
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 82% 0%;
 
     &-author {
         color: $light-gray;
@@ -81,9 +84,9 @@ main {
     }
 }
 
-.violet .testimonial-title {
-    position: relative;
-}
+// .violet .testimonial-title {
+    // position: relative;
+// }
 
 .grayish-blue {
     background-color: $very-dark-grayish-blue;
@@ -175,16 +178,16 @@ main {
     font-weight: 600;
 }
 
-.quotation {
-    position: absolute;
-    background-image: url(../images/bg-pattern-quotation.svg);
-    background-repeat: no-repeat;
-    top: 0px;
-    right: 80px;
-    height: 102px;
-    width: 104px;
-    background-size: 93px 96px;
-}
+// .quotation {
+//     position: absolute;
+//     background-image: url(../images/bg-pattern-quotation.svg);
+//     background-repeat: no-repeat;
+//     top: 0px;
+//     right: 80px;
+//     height: 102px;
+//     width: 104px;
+//     background-size: 93px 96px;
+// }
 
 
 
