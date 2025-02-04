@@ -10,13 +10,12 @@ body {
   color: hsl(0, 0%, 100%);
   font-size: 0.8125rem;
   background-color: hsl(210, 46%, 95%);
-  height: 100vh;
 }
 
 main {
   max-width: 69rem;
   margin: auto;
-  padding: 10vh 0;
+  padding: 10.125rem 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -161,16 +160,11 @@ main {
 }
 
 @media screen and (max-width: 768px) {
-  body {
-    height: auto;
-  }
   main {
-    margin: 2rem 1.5rem;
-    justify-content: flex-start;
+    margin: 1.875rem 1.5rem;
     display: block;
     height: auto;
-    margin-top: 25px;
-    padding-bottom: 50px;
+    padding: 2rem 0 3rem;
   }
   .testimonial {
     display: inline-block;
@@ -201,5 +195,10 @@ main {
   }
   .kira .testimonial-review {
     padding-right: 6px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1150px) {
+  main {
+    padding: 8.75rem 1.25rem;
   }
 }

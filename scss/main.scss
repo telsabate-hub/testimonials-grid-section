@@ -4,28 +4,17 @@ body {
     @include barlow(.8125rem, 500);
 
     background-color: $light-grayish-blue;
-    height: 100vh;
 }
 
 main {
-    // @include centerContentVertically();
-
-    // height: 100vh;
     max-width: 69rem;
     margin: auto;
-    padding: 10vh 0;
+    padding: 10.125rem 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 1.5rem 2rem;
 }
-
-// article {
-//     display: grid;
-//     grid-template-columns: repeat(4, 1fr);
-//     grid-template-rows: repeat(2, 1fr);
-//     gap: 1.5rem 2rem;
-// }
 
 .testimonial {
     border-radius: .5rem;
@@ -83,10 +72,6 @@ main {
         color: $light-gray-70;
     }
 }
-
-// .violet .testimonial-title {
-    // position: relative;
-// }
 
 .grayish-blue {
     background-color: $very-dark-grayish-blue;
@@ -177,17 +162,6 @@ main {
     font-size: 0.6375rem;
     font-weight: 600;
 }
-
-// .quotation {
-//     position: absolute;
-//     background-image: url(../images/bg-pattern-quotation.svg);
-//     background-repeat: no-repeat;
-//     top: 0px;
-//     right: 80px;
-//     height: 102px;
-//     width: 104px;
-//     background-size: 93px 96px;
-// }
 
 
 

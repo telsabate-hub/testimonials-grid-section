@@ -1,23 +1,10 @@
 @media screen and (max-width: 768px){
-    body {
-        height: auto;
-    }
-
     main {
-        margin: 2rem 1.5rem;
-        justify-content: flex-start;
+        margin: 1.875rem 1.5rem;
         display: block;
         height: auto;
-        margin-top: 25px;
-        padding-bottom: 50px;
+        padding: 2rem 0 3rem;
     }
-
-    // article {
-    //     display: block;
-    //     height: auto;
-    //     margin-top: 25px;
-    //     padding-bottom: 50px;
-    // }
 
     .testimonial {
         display: inline-block;
@@ -55,5 +42,12 @@
 
     .kira .testimonial-review {
         padding-right: 6px;
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1150px){
+    main {
+        padding: 8.75rem 1.25rem;
     }
 }
